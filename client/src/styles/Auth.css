@@ -1,0 +1,45 @@
+#form-container {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: white;
+}
+
+#Auth-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32dvw;
+    height: 68dvh;
+    background-color: rgb(194, 194, 194);
+    border-radius: 8px;
+}
+
+#Auth-form h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 25%;
+    margin-bottom: 4rem;
+}
+
+#Auth-form input {
+    margin-top: .5rem;
+    padding-left: 1rem;
+    width: 65%;
+    height: 7%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+
+#Auth-form button {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    width: 70%;
+    height: 7%;
+    border: none;
+    background-color: lightgreen;
+    border-radius: 5px;
+}

@@ -1,0 +1,91 @@
+#profile-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: monospace;
+}
+
+#user-info {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  align-items: center;
+  width: 65dvw;
+  height: 30dvh;
+  border-bottom: 2px solid grey;
+}
+
+#profile-img-container {
+  position: relative;
+  width: 17%;
+  aspect-ratio: 1/1;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-repeat: none;
+  background-size: cover;
+}
+
+#profile-img-container label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -7%;
+  width: 15%;
+  aspect-ratio: 1/1;
+  border: none;
+  background-color: lightgreen;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 8px;
+}
+
+#profile-img-container input {
+  display: none;
+}
+
+#user-info-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+#user-info-inner-inner {
+  display: flex;
+  gap: 3rem;
+  font-size: 0.6rem;
+}
+
+#user-posts {
+  width: 65dvw;
+  margin-top: 5rem;
+}
+
+#posts-container {
+  width: 100%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 10rem;
+}
+
+#follow-btn {
+  width: 40%;
+  aspect-ratio: 4/1;
+  border: none;
+  border-radius: 8px;
+  background-color: lightgreen;
+  font-weight: 600;
+}
+
+#unfollow-btn {
+  width: 40%;
+  aspect-ratio: 4/1;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(221, 115, 115);
+  font-weight: 600;
+}
